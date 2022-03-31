@@ -70,6 +70,13 @@ main h2 {
     font-size: 2em;
     font-family: 'Poppins', sans-serif;
 }
+main h4 {
+    text-align: center;
+    color: #4C5973;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 main img {
     display: block;
