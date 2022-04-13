@@ -1,0 +1,225 @@
+/* Gobal Styles */
+body {
+    background-color: #FFAB45
+    ;
+}
+
+IMG {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+
+/* Mobile Styles */
+#container {
+    background-color: #FFAB45;
+    margin: 10px;
+
+}
+
+header {
+    background-image: url('../images/JDM-Vehicles-1024x877.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    border: 8px solid #805622;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #FFBC6B;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #805622;
+    color: #FFBC6B;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav li a:hover {
+    background-color: #69461b;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #CC8937;
+    padding: 20px;
+    margin: 10px;
+    border: 8px solid #805622;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #FFAB45;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+    display: block;
+    background-color: #805622;
+    color: #FFBC6B;
+    line-height: 40px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000;
+}
+.button:hover {
+    background-color: #69461b;
+    text-shadow: 2px 2px 2px #000;
+}
+footer {
+    text-align: center;
+    color: #FFAB45;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.2em;
+}
+.single_col {
+    width: 80%;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border:  4px solid #805622;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+
+/* Tablet Styles */
+@media(min-width: 768px) {
+    header {
+        padding: 150px;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 200px;
+        line-height: 50px;
+        height: 50px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+    section, aside {
+        width: 50%;
+    }
+    aside img {
+        margin-top: 175px;
+        width: 150%;
+    }
+
+    .col img {
+        width: 75%;
+    }
+    
+    .single_col {
+        width: 92%;
+    }
+
+}
+
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 10px solid #69461b;
+        border-radius: 25px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+    }
+    .col img {
+        width: 100%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+     
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+
+
+
+    
+
+}
