@@ -116,6 +116,12 @@ table {
     display: none;
 }
 
+iframe, audio{
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
 /* Tablet Styles */
 @media(min-width: 768px) {
 
