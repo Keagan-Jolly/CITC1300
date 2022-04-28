@@ -23,6 +23,7 @@ header {
     border-radius: 20px;
     text-align: center;
     margin: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 header h1 {
@@ -32,12 +33,14 @@ header h1 {
 }
 h1 {
     border: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 h2 {
     color: rgb(194, 183, 255);
     text-align: center;
     text-shadow: 2px 2px 2px #000;
+    font-family: 'Radio Canada', sans-serif;
 }
 
 p {
@@ -47,6 +50,7 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     text-indent: 50px;
+    font-family: 'Radio Canada', sans-serif;
 }
 
 nav ul {
