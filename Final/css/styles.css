@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+    background-color: rgb(236, 160, 217);
+}
+
+IMG {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+/* Mobile Styles */
+
+#container {
+    background-color: rgb(87, 80, 124);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+header {
+    padding: 100px 0;
+    border: 8px solid rgb(60, 56, 82);
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+header h1 {
+    color: rgb(194, 183, 255);
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+h1 {
+    border: 10px;
+}
+
+h2 {
+    color: rgb(194, 183, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+p {
+    color: rgb(194, 183, 255);
+    text-shadow: 2px 2px 2px #000;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: rgb(60, 56, 82);
+    color: rgb(194, 183, 255);
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+img {
+    border: 8px solid rgb(60, 56, 82);
+    border-radius: 10px;
+    width: 65%;
+}
+
+section {
+    border: 8px solid rgb(60, 56, 82);
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
+
+footer {
+    border: 8px solid rgb(60, 56, 82);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgb(52, 48, 73);
+    margin: 10px;
+    color: rgb(194, 183, 255);
+}
+
+section,h1 {
+    margin-bottom: 65px;
+    font-size: 1.75em;
+}
+
+nav li a:hover {
+    background-color: #2b2341;
+    text-shadow: 2px 2px 2px #000;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles */
+@media(min-width: 768px) {
+
+p {
+    font-size: 1.5em;
+
+}
+
+nav li {
+    display: inline-block;
+}
+nav {
+    text-align: center;
+}
+
+nav li a {
+    height: 50px;
+    width: 225px;
+    font-size: 1.5em;
+}
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+
+ #container {
+     width: 70%;
+     margin: 20px auto;
+     
+ }
+ 
+p {
+        font-size: 1.5em;
+        text-align: center;
+}
+
+.col img {
+    width: 30%;
+}
+
+
+.Allsocks {
+        display: none;
+}
+
+table {
+        display: block;
+}
+
+footer {
+    width: 70%;
+     margin: 20px auto;
+}
+
+}
